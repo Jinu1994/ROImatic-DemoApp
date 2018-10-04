@@ -1,0 +1,43 @@
+{
+    "name": "roimaticwebapp",
+    "version": "1.0.0",
+    "description": "A test web app for ROIMatic",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "build": "webpack --watch",
+        "start:dev": "webpack-dev-server --hot"
+      },
+    "author": "Jinu George",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.16.2",
+        "body-parser": "^1.18.3",
+        "boostrap": "^2.0.0",
+        "bootstrap": "^4.1.3",
+        "bootstrap-vue": "^2.0.0-rc.11",
+        "express": "^4.16.3",
+        "jquery": "^3.3.1",
+        "popper.js": "^1.14.4",
+        "url-loader": "^1.1.1",
+        "vue": "^2.5.11",
+        "vue-axios": "^2.0.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.2",
+        "babel-preset-env": "^1.6.0",
+        "babel-preset-stage-3": "^6.24.1",
+        "cross-env": "^5.0.5",
+        "css-loader": "^1.0.0",
+        "file-loader": "^2.0.0",
+        "prettier": "^1.9.2",
+        "style-loader": "^0.23.0",
+        "vue-loader": "^14.2.2",
+        "vue-template-compiler": "^2.4.4",
+        "webpack": "^4.20.2",
+        "webpack-cli": "^3.1.1",
+        "webpack-dev-server": "^3.1.9"
+    }
+}

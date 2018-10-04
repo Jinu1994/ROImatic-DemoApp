@@ -1,0 +1,67 @@
+.main-container{
+    height:550px;
+    margin:5px;
+    background:#ffffff;
+}
+
+html, body { height: 100% }
+
+
+
+.custom-panel{
+    height:470px;
+}
+.sub-container{
+    position:relative;
+    margin:15px 5px;
+    height:90%;
+}
+
+
+.top-header{
+    height:50px;
+    margin:10px 20px;
+    background: #ffffff;
+    vertical-align: middle;
+}
+.top-header h6{
+    line-height:3;
+}
+
+.card-header{
+    background:#ffffff;
+}
+
+.call-back-button{
+    float:right;
+}
+
+#bot,#bot iframe{
+    position:relative;
+    height:100%;
+    width:100%;
+    padding:0;
+}
+
+.list-group-item{
+    padding:2px !important;
+    border:none !important;
+}
+.summary-data{
+    font-size:14px
+}
+.summary-data label {
+    margin:0 !important;
+}
+
+.wc-console{
+    width:50%;
+    border: 1px solid #cccccc;
+    height: 37px;
+    margin: 5px 2px 9px 5px;
+}
+
+.wc-message-groups{
+    border-bottom:1px solid #dddddd;
+    height:78%;
+}
